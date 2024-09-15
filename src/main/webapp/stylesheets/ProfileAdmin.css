@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+body.admin-profile {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.admin-profile .container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.admin-profile h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-profile .profile-details {
+    margin-bottom: 20px;
+}
+
+.admin-profile .profile-details p {
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+.admin-profile .profile-details strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.admin-profile button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.admin-profile button:hover {
+    background-color: #0056b3;
+}

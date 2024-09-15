@@ -1,0 +1,49 @@
+/* RegisterAdmin.css */
+
+.edit-admin-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-admin-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.edit-admin-container .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-admin-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-admin-container input[type="text"],
+.edit-admin-container input[type="email"],
+.edit-admin-container input[type="password"],
+.edit-admin-container input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-admin-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.edit-admin-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
